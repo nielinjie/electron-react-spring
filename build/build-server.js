@@ -11,7 +11,7 @@ if (shell.exec('npm run build').code !== 0) {
   shell.echo('Error: react build failed')
   shell.exit(1)
 }
-shell.cp('-R', 'dist/', PUBLIC)
+shell.cp('-R', 'build/', PUBLIC)
 shell.cd('..')
 
 shell.echo('##########################')
