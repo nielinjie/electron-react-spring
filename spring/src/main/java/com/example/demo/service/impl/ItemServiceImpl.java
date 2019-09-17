@@ -14,9 +14,9 @@ public class ItemServiceImpl implements ItemService {
 	private List<Item> items = new ArrayList<>(); 
 
 	public ItemServiceImpl() {
-		items.add(new Item(0, "Item 1"));
-		items.add(new Item(1, "Item 2"));
-		items.add(new Item(2, "Item 3"));
+		items.add(new Item(0, "react"));
+		items.add(new Item(1, "vue"));
+		items.add(new Item(2, "angela"));
 	}
 
 	@Override
