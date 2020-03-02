@@ -5,7 +5,7 @@
 
 This project has two sub projects. Although they are just folders in this project, but they could be in their own Git repository and merged to this project using [Git subtree](https://help.github.com/articles/about-git-subtree-merges/).
 
-1. `my-react-app`: a React application as the front-end, based on a simple app created by create-react-app.
+1. `my-react-app`: a React application as the front-end, based on a simple app created by [create-react-app](https://create-react-app.dev).
 2. `spring`: a Spring Boot application as the backend, based on a Maven project created by [Spring Initializer](https://start.spring.io/) with Web dependency.
 
 Both Windows and Mac OS are supported.
